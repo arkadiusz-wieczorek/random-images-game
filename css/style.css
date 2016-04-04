@@ -1,0 +1,109 @@
+/*
+Arkadiusz Wieczorek
+www: http://arkadiusz-wieczorek.pl
+e-mail: kontakt@arkadiusz-wieczorek.pl
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-rendering: optimizelegibility;
+    font-smooth: auto;
+    -webkit-font-smoothing: auto;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block;
+}
+
+body {
+    font-family: 'Neris', 'Open Sans', 'Liberation Sans', 'Nimbus Sans L', 'Trebuchet MS', 'Arial';
+    font-weight: 100;
+    color: #333;
+    background-color: #fff;
+    background-image: url('../img/bg.jpg');
+}
+
+.container {
+    max-width: 50rem;
+    margin: 0 auto;
+    /* padding-bottom: 3rem; */
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    justify-content: center;
+    font-weight: 300;
+    transition: all 400ms;
+}
+
+.item {
+    width: 14rem;
+    height: 14rem;
+    text-align: center;
+    margin: 1rem;
+    border-radius: 50%;
+    border: 0.3rem #fff solid;
+    /* margin-bottom: 1rem; */
+}
+
+h1{
+    font-family: 'Lobster';
+    font-weight: normal;
+    color: #fff;
+    font-size: 4rem;
+    line-height: 4rem;
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+button{
+    font-size: 1.4rem;
+    
+    /*width: 100%;*/
+    background: #fff;
+    border: none;
+    padding: 1rem;
+    color: #333;
+    font-weight: normal;
+    text-align: center;
+    transition: all 400ms;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: hsl(208, 24%, 94%);
+}
+
+
+.buttons{
+    margin-top: 2rem;
+    width: 100%;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+footer{
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+}

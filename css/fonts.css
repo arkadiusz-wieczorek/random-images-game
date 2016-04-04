@@ -1,0 +1,22 @@
+/*
+Arkadiusz Wieczorek
+www: http://arkadiusz-wieczorek.pl
+e-mail: kontakt@arkadiusz-wieczorek.pl
+*/
+
+@font-face{
+    font-family: 'Neris';
+    font-weight: 200;
+    font-style: normal;
+    font-stretch: normal;
+    src: 
+        url('fonts/otf/Neris-Light.otf') format('opentype');
+}
+@font-face{
+    font-family: 'Lobster';
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    src:
+        url('fonts/otf/lobster.otf') format('opentype');
+}
